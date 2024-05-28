@@ -2,7 +2,7 @@ import { Smile } from "@/components";
 
 export default function Home() {
   return (
-    <main className="relative p-8 md:p-24 flex flex-col gap-6 h-screen">
+    <main className="relative p-8 md:p-24 flex flex-col gap-6 h-dvh md:h-screen">
       <h1 className="text-3xl font-medium md:font-normal md:text-6xl">{"Hi! I'm Samuel Alegre."}</h1>
       <h2 className="text-xl md:text-4xl md:mb-10">Web Developer & Senior Graphic Designer with Motion Graphics knowledge.</h2>
       <p className="text-xl md:text-2xl">Visit my <a href='https://www.linkedin.com/in/samuel-alegre-castro-54a878297' className="underline hover:italic">LinkedIn</a> or my <a href='https://github.com/samuelalecas' className="underline hover:italic">GitHub</a>.</p>
