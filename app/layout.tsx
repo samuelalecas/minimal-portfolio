@@ -46,7 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jost.className} max-w-[1800px] mx-auto`}>
+      <body className={`${jost.className} max-w-[1800px]`}>
         {children}
         <Smile />
       </body>
