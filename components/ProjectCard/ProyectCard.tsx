@@ -23,7 +23,9 @@ export const ProjectCard = ({ data }: { data: any }) => {
           <h3 className="text text-xl md:text-2xl hover:underline">{title}</h3>
         </a>
         <div className="flex gap-2 text-gray-400 hover:*:text-gray-900">
-          {icons.map((icon: ReactNode) => icon)}
+          {icons.map((icon: ReactNode, index: number) => (
+            <div key={index}>{icon}</div>
+          ))}
         </div>
       </div>
     </article>
